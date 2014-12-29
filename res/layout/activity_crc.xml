@@ -1,0 +1,158 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	>
+	<LinearLayout 
+   
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   	android:orientation="vertical">
+   	
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msgbits"
+        android:background="@color/gray"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@android:color/white"
+         />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/dark_gray"
+        />
+     <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical"
+   		android:background="@color/light_gray">
+
+	<EditText
+	    android:id="@+id/msgbits"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="4dp"
+	    android:layout_marginRight="4dp"
+	    android:hint="@string/msgbits_hint"
+	     />
+
+	</LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical"
+   		android:background="@color/light_gray">
+
+	</LinearLayout>
+	
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/patternbits"
+         android:background="@color/gray"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@android:color/white"
+         
+         />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/dark_gray"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical"
+   		android:background="@color/light_gray"
+   		>
+
+	<EditText
+	    android:id="@+id/patternbits"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="4dp"
+	    android:layout_marginRight="4dp"
+	    android:hint="@string/patternbits_hint" />
+
+	</LinearLayout>
+		<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fcs"
+         android:background="@color/gray"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@android:color/white"
+         
+         />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/dark_gray"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical"
+   		android:background="@color/light_gray"
+   		>
+
+	<EditText
+	    android:textColor="@android:color/black"
+	    android:id="@+id/fcs"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="4dp"
+	    android:layout_marginRight="4dp"
+	    android:hint="@string/calculate_hint"
+	    android:enabled="false" />
+
+	</LinearLayout> 
+		
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msgbits_sent"
+        android:background="@color/gray"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@android:color/white"
+         />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/dark_gray"
+        />
+     <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical"
+   		android:background="@color/light_gray">
+
+	<EditText
+	    android:textColor="@android:color/black"
+	    android:id="@+id/msgbits_sent"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="4dp"
+	    android:layout_marginRight="4dp"
+	    android:hint="@string/calculate_hint"
+	    android:enabled="false"
+	    />
+
+	</LinearLayout>
+<View 
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        
+        />
+	     <Button
+	         android:id="@+id/calculate"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center_horizontal"
+	         android:text="@string/calculate" />
+	
+	 
+	
+</LinearLayout>
+</ScrollView>

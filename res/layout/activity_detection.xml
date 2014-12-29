@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	>
+	<LinearLayout 
+   
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   	android:orientation="vertical">
+   	
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/codeword"
+        android:background="@color/gray"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@android:color/white"
+         />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/dark_gray"
+        />
+     <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical"
+   		android:background="@color/light_gray">
+
+	<EditText
+	    android:id="@+id/codeword"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="4dp"
+	    android:layout_marginRight="4dp"
+	    android:hint="@string/codeword_hint"
+	     />
+
+	</LinearLayout>
+	
+
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/err_pos"
+         android:background="@color/gray"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@android:color/white"
+         
+         />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/dark_gray"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical"
+   		android:background="@color/light_gray"
+   		>
+
+	<EditText
+	    android:textColor="@android:color/black"
+	    android:id="@+id/err_pos"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="4dp"
+	    android:layout_marginRight="4dp"
+	    android:hint="@string/calculate_hint"
+	    android:enabled="false" />
+
+	</LinearLayout> 
+		<View 
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        
+        />
+	     <Button
+	         android:id="@+id/calculate"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center_horizontal"
+	         android:text="@string/calculate" />
+	
+	 
+	
+</LinearLayout>
+</ScrollView>

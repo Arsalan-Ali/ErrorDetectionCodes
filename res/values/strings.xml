@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Error Detection Codes</string>
+   
+    <string name="msgbits">Message Bits(Dataword)</string>
+    <string name="action_settings">Settings</string>
+	<string name="msgbits_hint">Enter Message Bits</string>
+	<string name="patternbits_hint">Enter Pattern Bits</string>
+	<string name="patternbits">Pattern Bits(Divisor)</string>
+	<string name="msgbits_sent_hint">Enter Message Bits to Send</string>
+	<string name="msgbits_sent">Message Bits to Send(Codeword)</string>
+	<string name="fcs">FCS(Remainder)</string>
+	<string name="calculate">Calculate</string>
+	<string name="calculate_hint">To be Calculated</string>
+
+	<string name="calculate_codeword">Calculate Codeword</string>
+	<string name="codeword">Codeword</string>
+	<string name="codeword_hint">Enter Codeword</string>
+	<string name="detection">Find Error Position</string>
+	<string name="hamming">Hamming Code</string>
+	<string name="crc">Cyclic Redundancy Check</string>
+	<string name="dataword">Dataword</string>
+	<string name="dataword_hint">Enter Dataword</string>
+	<string name="err_pos">Error Position</string>
+	<string name="about">About</string>
+	<string name="detail_of_app">This application is developed by Arsalan Ali.</string>
+    <string name="copyright">Copyright © 2014 </string>
+</resources>
